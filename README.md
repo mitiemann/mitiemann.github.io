@@ -1,3 +1,4 @@
-# Hello, world!
+# My personal website
 
-My name is Michael Tiemann. What's yours?
+Repository containing files for my [personal website](https://www.michaeltiemann.net/).
+Built using [Franklin.jl](https://franklinjl.org/).
