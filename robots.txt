@@ -1,0 +1,4 @@
+Sitemap: https://www.michaeltiemann.net/sitemap.xml
+
+User-agent: *
+Disallow:
