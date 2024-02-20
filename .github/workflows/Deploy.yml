@@ -23,6 +23,8 @@ jobs:
         version: '1'
     - run: julia -e '
         using Pkg; Pkg.activate("."); Pkg.instantiate();
+        using NodeJS;
+        run(`sudo $(npm_cmd()) install highlight.js`);
         using Franklin; 
         optimize()'
     - name: Deploy to GitHub Pages
