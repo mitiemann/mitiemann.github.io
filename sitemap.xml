@@ -2,20 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
+    <loc>https://www.michaeltiemann.net/talks/index.html</loc>
+    <lastmod>2024-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://www.michaeltiemann.net/blog/002-howto_homepage/index.html</loc>
+    <lastmod>2024-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://www.michaeltiemann.net/impressum/index.html</loc>
+    <lastmod>2024-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
     <loc>https://www.michaeltiemann.net/blog/index.html</loc>
-    <lastmod>2024-02-21</lastmod>
+    <lastmod>2024-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://www.michaeltiemann.net/blog/001-hello_world/index.html</loc>
+    <lastmod>2024-03-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://www.michaeltiemann.net/cv/index.html</loc>
-    <lastmod>2024-02-21</lastmod>
+    <lastmod>2024-03-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
     <loc>https://www.michaeltiemann.net/index.html</loc>
-    <lastmod>2024-02-21</lastmod>
+    <lastmod>2024-03-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
