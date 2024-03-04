@@ -8,6 +8,10 @@ Michael Tiemann
 
 [Michael Tiemann](http://creativecommons.org/licenses/by-sa/4.0/) 
 
-## Colophon
+## Privacy Policy
 
-Lorem ipsum
+todo
+
+## [Colophon](https://en.wikipedia.org/wiki/Colophon_(publishing)#Websites)
+
+todo
