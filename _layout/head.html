@@ -3,14 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {{if hasmath}} {{insert head_katex.html }}     {{end}}
-  {{if hascode}} {{insert head_highlight.html }}   {{end}}
-  <link rel="stylesheet" href="/css/franklin.css">
-  <link rel="stylesheet" href="/css/basic.css">
-  <link rel="icon" href="/assets/favicon.png">
-  {{isdef title}} <title>{{fill title}}</title>  {{end}}
-</head>
-<body>
-  {{insert header.html}}
 
-<!-- Content appended here -->
+  <meta name="author" content="{{author}}">
+  <meta name="description" content="{{jobtitle}}">
+
+  <meta name="theme-color" content="#2962ff">
+
+  {{insert stylesheets.html}}
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin=anonymous async></script>
+
+  {{isdef title}} <title>{{title}}</title>  {{end}}
+</head>
+
+<body id=top data-spy="scroll" data-offset="70" data-target=#navbar-main>
+
+  {{insert navbar.html}}
+
+  <span class="js-widget-page d-none"></span>
+
+  {{isnotpage index.html}}
+    <article class=article>
+      <div class="article-container pt-3">
+        <h1>{{title}}</h1>
+      </div>
+      {{isdef hero}}
+        <div class="article-header container-fluid featured-image-wrapper mt-4 mb-4" style="max-width:2000px;max-height:1333px">
+          <div style="position:relative">
+            <img src="{{hero}}" alt="" class="featured-image">
+          </div>
+        </div>
+      {{end}}
+
+      <div class="article-container">
+        <div class="article-style">
+  {{end}}
