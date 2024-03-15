@@ -1,4 +1,4 @@
-@def title = "Academic template"
+@def title = "Michael Tiemann"
 
 <!-- -----------------
      BIOGRAPHY SECTION
@@ -11,8 +11,8 @@
 
 \img{"/assets/img/person.jpg", class="avatar avatar-circle", alt="Nelson Bighetti"}
 \portrait{
-  name="Nelson Bighetti",
-  job="Professor of Artificial Intelligence",
+  name="Michael Tiemann",
+  job="Research Scientist, Project Manager at Bosch Center for Artificial Intelligence",
   link="https://www.stanford.edu/",
   linkname="Stanford University",
   twitter="https://twitter.com/GeorgeCushen",
@@ -26,10 +26,11 @@
 @@col-12,col-lg-8
 
 \begin{biography}{resume="/assets/demo_resume.pdf"}
-  Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops
-  self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+  Hello, my name is Michael Tiemann, but you may call me [ˈmaɪti]. 
+  This personal website is currently in active development. 
+  Check back regularly to see where this is going.
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+  Current status: adapting [Academic Resume](https://github.com/tlienart/ft-academic-resume) template to my needs.
 \end{biography}
 
 \shortcv{
